@@ -3,9 +3,8 @@ import Link from "next/link";
 import { Spotlight } from "./ui/Spotlight";
 import { Button } from "./ui/moving-border";
 
-type Props = {};
 
-const HeroSection = (props: Props) => {
+const HeroSection = () => {
   return (
     <div className="h-[100vh] w-full rounded-md flex flex-col items-center justify-center relative overflow-hidden mx-auto py-10 md:p-0">
       <Spotlight
